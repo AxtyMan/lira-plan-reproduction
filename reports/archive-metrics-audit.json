@@ -1,0 +1,1 @@
+{"files":8420,"distinct_cells":7700,"expected_cells":7700,"per_batch":{"main":1200,"eurosat-main":1200,"resisc45-primary":780,"resisc45-other":960,"resisc45-k16":240,"description-controls":2880,"other-diagnostics":1160},"unique_score_evaluations":5357,"calibrated_files":720,"passed":true}

@@ -1,0 +1,1 @@
+{"paper_pdf_sha256_verified":3,"author_eurosat_runs":30,"matched_project_eurosat_runs_recomputed":60,"author_style_local_replays_recomputed":2,"resisc45_metrics_recomputed":140,"resisc45_aggregated_rows":10,"verified_metrics":["accuracy","macro_f1","harm","rescue","brier","nll","ece","aurc"],"resisc45_query_count":12598,"eurosat_query_count":8100}

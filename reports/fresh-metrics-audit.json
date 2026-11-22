@@ -1,0 +1,1 @@
+{"files":3600,"distinct_cells":3600,"expected_cells":3600,"per_batch":{"replay-ucmerced":1200,"replay-eurosat":1200,"replay-primary":240,"replay-resisc45":960},"unique_score_evaluations":2780,"calibrated_files":0,"passed":true}

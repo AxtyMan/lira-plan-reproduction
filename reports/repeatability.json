@@ -1,0 +1,11 @@
+{
+  "paired_fits": 3600,
+  "same_top1_harm_rescue": 3600,
+  "changed_by_method": {},
+  "max_absolute_fraction_difference": {
+    "accuracy": 0.0,
+    "harm": 0.0,
+    "rescue": 0.0
+  },
+  "changed_cells": []
+}

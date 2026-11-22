@@ -1,0 +1,15 @@
+zi = Ev(xi) / ||Ev(xi)||2,    tcj = Et(dcj) / ||Et(dcj)||2    （1）
+pc = (1/K) Σi:y_i=c zi,    scj = (pc / max(||pc||2, ε))T tcj    （2）
+wc = softmax(γ sc / max(||sc||2, ε)),    ac = norm(Σj wcj tcj)    （3）
+δc = (η/2) minr≠c ||pc − pr||2,    0 ≤ η < 1    （4）
+uc = (ac − pc) · min{1, δc / max(||ac − pc||2, ε)}    （5）
+μc(λ) = pc + λ uc,    λ ∈ Λ = {0, 0.125, 0.25, 0.5, 1}    （6）
+||μc(λ) − μr(λ)||2 ≥ (1−η) ||pc − pr||2    （7）
+lc(z;λ) = −||z−μc(λ)||22 / τ0,    π(z;λ) = softmax(l(z;λ))    （8）
+Re(λ) = (1/C) Σc (1/|Sc|) Σi∈S_c Σr=1C [πr(-i,e)(zi;λ)−1(yi=r)]2    （9）
+A = {λ∈Λ : maxe∈E[Re(λ)−Re(0)] ≤ 0}    （10）
+λ* = argminλ∈A Rfull(λ),    同分时选择更小的 λ    （11）
+gcr(z) = ||z−pr||22 − ||z−pc||22。    （12）
+Bcr(z) = 2||z−pr||2βr + 2||z−pc||2βc + βr2 + βc2。    （13）
+Harm = Pr(本文错误且视觉基线正确),    Rescue = Pr(本文正确且视觉基线错误)    （14）
+Accuracy本文 − Accuracy视觉 = Rescue − Harm    （15）

@@ -1,0 +1,301 @@
+{
+  "version": "taxonomy-v1",
+  "source": "Yang and Newsam, DOI 10.1145/1869790.1869829; TorchGeo v0.7.1 class taxonomy",
+  "notes": "Independently authored static visible attributes; not image-level ground truth. Paraphrase uses an alternate overhead framing. No query outcomes used.",
+  "classes": {
+    "agricultural": {
+      "core": "An aerial image of agricultural land.",
+      "attrs": [
+        "Cultivated vegetation covers broad tracts.",
+        "Field margins separate neighboring plots.",
+        "Surface color varies between adjacent planted parcels."
+      ],
+      "paraphrase": [
+        "From overhead, cultivated vegetation covers broad tracts.",
+        "From overhead, field margins separate neighboring plots.",
+        "From overhead, surface color varies between adjacent planted parcels."
+      ],
+      "confuser": "golfcourse"
+    },
+    "airplane": {
+      "core": "An aerial image of airplane.",
+      "attrs": [
+        "Wings extend sideways from a narrow fuselage.",
+        "Aircraft can sit on paved aprons or taxiways.",
+        "Tail surfaces are visible at the rear of the aircraft."
+      ],
+      "paraphrase": [
+        "From overhead, wings extend sideways from a narrow fuselage.",
+        "From overhead, aircraft can sit on paved aprons or taxiways.",
+        "From overhead, tail surfaces are visible at the rear of the aircraft."
+      ],
+      "confuser": "runway"
+    },
+    "baseballdiamond": {
+      "core": "An aerial image of baseball diamond.",
+      "attrs": [
+        "An infield forms a diamond around four bases.",
+        "The grassy outfield spreads beyond a curved boundary.",
+        "Dirt paths and foul lines run out from home plate."
+      ],
+      "paraphrase": [
+        "From overhead, an infield forms a diamond around four bases.",
+        "From overhead, the grassy outfield spreads beyond a curved boundary.",
+        "From overhead, dirt paths and foul lines run out from home plate."
+      ],
+      "confuser": "golfcourse"
+    },
+    "beach": {
+      "core": "An aerial image of beach.",
+      "attrs": [
+        "A light sandy strip follows the waterline.",
+        "Wave traces can meet the exposed shore.",
+        "Dry sand and darker wet sand form bands."
+      ],
+      "paraphrase": [
+        "From overhead, a light sandy strip follows the waterline.",
+        "From overhead, wave traces can meet the exposed shore.",
+        "From overhead, dry sand and darker wet sand form bands."
+      ],
+      "confuser": "harbor"
+    },
+    "buildings": {
+      "core": "An aerial image of group of buildings.",
+      "attrs": [
+        "Angular roofs mark discrete structures.",
+        "Open gaps divide adjacent roof footprints.",
+        "Access ways and paved yards appear between buildings."
+      ],
+      "paraphrase": [
+        "From overhead, angular roofs mark discrete structures.",
+        "From overhead, open gaps divide adjacent roof footprints.",
+        "From overhead, access ways and paved yards appear between buildings."
+      ],
+      "confuser": "denseresidential"
+    },
+    "chaparral": {
+      "core": "An aerial image of chaparral.",
+      "attrs": [
+        "Low shrubs form a mottled cover.",
+        "Patches of bare soil interrupt woody vegetation.",
+        "Scrub canopy looks less continuous than a closed forest."
+      ],
+      "paraphrase": [
+        "From overhead, low shrubs form a mottled cover.",
+        "From overhead, patches of bare soil interrupt woody vegetation.",
+        "From overhead, scrub canopy looks less continuous than a closed forest."
+      ],
+      "confuser": "forest"
+    },
+    "denseresidential": {
+      "core": "An aerial image of dense residential district.",
+      "attrs": [
+        "Small roofs crowd into closely spaced blocks.",
+        "Narrow roads divide repeated housing units.",
+        "Limited open ground separates adjacent structures."
+      ],
+      "paraphrase": [
+        "From overhead, small roofs crowd into closely spaced blocks.",
+        "From overhead, narrow roads divide repeated housing units.",
+        "From overhead, limited open ground separates adjacent structures."
+      ],
+      "confuser": "mediumresidential"
+    },
+    "forest": {
+      "core": "An aerial image of forest.",
+      "attrs": [
+        "Tree crowns form broad contiguous canopy.",
+        "Shadows add irregular texture between crowns.",
+        "Clearings contrast with nearby dense vegetation."
+      ],
+      "paraphrase": [
+        "From overhead, tree crowns form broad contiguous canopy.",
+        "From overhead, shadows add irregular texture between crowns.",
+        "From overhead, clearings contrast with nearby dense vegetation."
+      ],
+      "confuser": "chaparral"
+    },
+    "freeway": {
+      "core": "An aerial image of highway.",
+      "attrs": [
+        "A broad linear road cuts across the landscape.",
+        "Parallel travel lanes follow a common direction.",
+        "Ramps or narrower roads may connect with the main carriageway."
+      ],
+      "paraphrase": [
+        "From overhead, a broad linear road cuts across the landscape.",
+        "From overhead, parallel travel lanes follow a common direction.",
+        "From overhead, ramps or narrower roads may connect with the main carriageway."
+      ],
+      "confuser": "river"
+    },
+    "golfcourse": {
+      "core": "An aerial image of golf course.",
+      "attrs": [
+        "Managed turf forms elongated fairway corridors.",
+        "Small sand bunkers punctuate the greens.",
+        "Curving paths connect open grass areas."
+      ],
+      "paraphrase": [
+        "From overhead, managed turf forms elongated fairway corridors.",
+        "From overhead, small sand bunkers punctuate the greens.",
+        "From overhead, curving paths connect open grass areas."
+      ],
+      "confuser": "agricultural"
+    },
+    "harbor": {
+      "core": "An aerial image of harbor.",
+      "attrs": [
+        "Piers and quays extend along sheltered water.",
+        "Vessels may lie beside engineered waterfront edges.",
+        "Breakwaters and docks organize the basin."
+      ],
+      "paraphrase": [
+        "From overhead, piers and quays extend along sheltered water.",
+        "From overhead, vessels may lie beside engineered waterfront edges.",
+        "From overhead, breakwaters and docks organize the basin."
+      ],
+      "confuser": "beach"
+    },
+    "intersection": {
+      "core": "An aerial image of road intersection.",
+      "attrs": [
+        "Multiple road arms meet at one junction.",
+        "Turn lanes or markings branch around the junction.",
+        "Paved road corridors converge in the same patch."
+      ],
+      "paraphrase": [
+        "From overhead, multiple road arms meet at one junction.",
+        "From overhead, turn lanes or markings branch around the junction.",
+        "From overhead, paved road corridors converge in the same patch."
+      ],
+      "confuser": "overpass"
+    },
+    "mediumresidential": {
+      "core": "An aerial image of medium-density residential district.",
+      "attrs": [
+        "Houses form recognizable blocks with visible gaps.",
+        "Yards and local roads separate groups of roofs.",
+        "Houses cover a notable share of the scene without continuous roof cover."
+      ],
+      "paraphrase": [
+        "From overhead, houses form recognizable blocks with visible gaps.",
+        "From overhead, yards and local roads separate groups of roofs.",
+        "From overhead, houses cover a notable share of the scene without continuous roof cover."
+      ],
+      "confuser": "denseresidential"
+    },
+    "mobilehomepark": {
+      "core": "An aerial image of mobile home park.",
+      "attrs": [
+        "Narrow rectangular homes repeat in closely spaced rows.",
+        "Small lots line shared access lanes.",
+        "The units often have comparable length and orientation."
+      ],
+      "paraphrase": [
+        "From overhead, narrow rectangular homes repeat in closely spaced rows.",
+        "From overhead, small lots line shared access lanes.",
+        "From overhead, the units often have comparable length and orientation."
+      ],
+      "confuser": "denseresidential"
+    },
+    "overpass": {
+      "core": "An aerial image of road overpass.",
+      "attrs": [
+        "One traffic route crosses another at a different level.",
+        "Ramps can form curving connectors around the crossing.",
+        "Distinct shadows or deck edges mark the upper crossing."
+      ],
+      "paraphrase": [
+        "From overhead, one traffic route crosses another at a different level.",
+        "From overhead, ramps can form curving connectors around the crossing.",
+        "From overhead, distinct shadows or deck edges mark the upper crossing."
+      ],
+      "confuser": "intersection"
+    },
+    "parkinglot": {
+      "core": "An aerial image of parking lot.",
+      "attrs": [
+        "Cars may appear in repeated rows on hard pavement.",
+        "Narrow spaces are arranged around vehicle aisles.",
+        "Paved bays sit beside access roads or buildings."
+      ],
+      "paraphrase": [
+        "From overhead, cars may appear in repeated rows on hard pavement.",
+        "From overhead, narrow spaces are arranged around vehicle aisles.",
+        "From overhead, paved bays sit beside access roads or buildings."
+      ],
+      "confuser": "runway"
+    },
+    "river": {
+      "core": "An aerial image of river.",
+      "attrs": [
+        "An elongated water channel winds across the scene.",
+        "Banks trace both sides of the connected waterway.",
+        "Narrow and wide reaches can occur along the same channel."
+      ],
+      "paraphrase": [
+        "From overhead, an elongated water channel winds across the scene.",
+        "From overhead, banks trace both sides of the connected waterway.",
+        "From overhead, narrow and wide reaches can occur along the same channel."
+      ],
+      "confuser": "harbor"
+    },
+    "runway": {
+      "core": "An aerial image of aircraft runway.",
+      "attrs": [
+        "An unusually long and straight paved strip fills part of the image.",
+        "Surface markings follow a single landing axis.",
+        "Broad clear ground borders the aircraft movement strip."
+      ],
+      "paraphrase": [
+        "From overhead, an unusually long and straight paved strip fills part of the image.",
+        "From overhead, surface markings follow a single landing axis.",
+        "From overhead, broad clear ground borders the aircraft movement strip."
+      ],
+      "confuser": "airplane"
+    },
+    "sparseresidential": {
+      "core": "An aerial image of sparse residential district.",
+      "attrs": [
+        "Isolated homes stand among extensive open space.",
+        "Yards and trees create wide gaps between roofs.",
+        "Small access roads connect widely separated buildings."
+      ],
+      "paraphrase": [
+        "From overhead, isolated homes stand among extensive open space.",
+        "From overhead, yards and trees create wide gaps between roofs.",
+        "From overhead, small access roads connect widely separated buildings."
+      ],
+      "confuser": "mediumresidential"
+    },
+    "storagetanks": {
+      "core": "An aerial image of storage tanks.",
+      "attrs": [
+        "Circular tank roofs form distinct industrial footprints.",
+        "Several round tanks may repeat at regular spacing.",
+        "Service paths or containment areas lie around the tanks."
+      ],
+      "paraphrase": [
+        "From overhead, circular tank roofs form distinct industrial footprints.",
+        "From overhead, several round tanks may repeat at regular spacing.",
+        "From overhead, service paths or containment areas lie around the tanks."
+      ],
+      "confuser": "buildings"
+    },
+    "tenniscourt": {
+      "core": "An aerial image of tennis court.",
+      "attrs": [
+        "A small rectangular court has a marked central net line.",
+        "Painted baselines and service boxes subdivide the playing area.",
+        "Multiple colorful courts may share adjacent fences."
+      ],
+      "paraphrase": [
+        "From overhead, a small rectangular court has a marked central net line.",
+        "From overhead, painted baselines and service boxes subdivide the playing area.",
+        "From overhead, multiple colorful courts may share adjacent fences."
+      ],
+      "confuser": "baseballdiamond"
+    }
+  }
+}

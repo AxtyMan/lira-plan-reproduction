@@ -1,0 +1,147 @@
+{
+  "version": "taxonomy-v1",
+  "source": "Helber et al., DOI 10.1109/JSTARS.2019.2918242; phelber/EuroSAT RGB class taxonomy",
+  "notes": "Independently authored static visible attributes; not image-level ground truth. Paraphrase uses an alternate overhead framing. No query outcomes used.",
+  "classes": {
+    "annualcrop": {
+      "core": "An aerial image of annual cropland.",
+      "attrs": [
+        "Open cultivated parcels fill the overhead view.",
+        "Crop rows create fine repeated marks.",
+        "Field edges break the land into managed blocks."
+      ],
+      "paraphrase": [
+        "From overhead, open cultivated parcels fill the overhead view.",
+        "From overhead, crop rows create fine repeated marks.",
+        "From overhead, field edges break the land into managed blocks."
+      ],
+      "confuser": "permanentcrop"
+    },
+    "forest": {
+      "core": "An aerial image of forest.",
+      "attrs": [
+        "Tree crowns form broad contiguous canopy.",
+        "Shadows add irregular texture between crowns.",
+        "Clearings contrast with nearby dense vegetation."
+      ],
+      "paraphrase": [
+        "From overhead, tree crowns form broad contiguous canopy.",
+        "From overhead, shadows add irregular texture between crowns.",
+        "From overhead, clearings contrast with nearby dense vegetation."
+      ],
+      "confuser": "herbaceousvegetation"
+    },
+    "herbaceousvegetation": {
+      "core": "An aerial image of herbaceous vegetation.",
+      "attrs": [
+        "Low vegetation covers much of the land.",
+        "Open grassy patches lack continuous tree crowns.",
+        "Irregular boundaries may separate vegetation from cultivated areas."
+      ],
+      "paraphrase": [
+        "From overhead, low vegetation covers much of the land.",
+        "From overhead, open grassy patches lack continuous tree crowns.",
+        "From overhead, irregular boundaries may separate vegetation from cultivated areas."
+      ],
+      "confuser": "pasture"
+    },
+    "highway": {
+      "core": "An aerial image of highway.",
+      "attrs": [
+        "A broad linear road cuts across the landscape.",
+        "Parallel travel lanes follow a common direction.",
+        "Ramps or narrower roads may connect with the main carriageway."
+      ],
+      "paraphrase": [
+        "From overhead, a broad linear road cuts across the landscape.",
+        "From overhead, parallel travel lanes follow a common direction.",
+        "From overhead, ramps or narrower roads may connect with the main carriageway."
+      ],
+      "confuser": "river"
+    },
+    "industrial": {
+      "core": "An aerial image of industrial area.",
+      "attrs": [
+        "Large angular roofs occupy sizable blocks.",
+        "Wide paved yards are found beside buildings.",
+        "Service roads link warehouse-like structures."
+      ],
+      "paraphrase": [
+        "From overhead, large angular roofs occupy sizable blocks.",
+        "From overhead, wide paved yards are found beside buildings.",
+        "From overhead, service roads link warehouse-like structures."
+      ],
+      "confuser": "residential"
+    },
+    "pasture": {
+      "core": "An aerial image of pasture.",
+      "attrs": [
+        "Managed grass covers enclosed tracts.",
+        "Hedges or tracks separate neighboring fields.",
+        "Broad open grass patches have relatively uniform texture."
+      ],
+      "paraphrase": [
+        "From overhead, managed grass covers enclosed tracts.",
+        "From overhead, hedges or tracks separate neighboring fields.",
+        "From overhead, broad open grass patches have relatively uniform texture."
+      ],
+      "confuser": "herbaceousvegetation"
+    },
+    "permanentcrop": {
+      "core": "An aerial image of permanent cropland.",
+      "attrs": [
+        "Repeated rows of perennial plants pattern the plots.",
+        "Rows persist across regularly managed parcels.",
+        "Small canopy elements can leave exposed soil between lines."
+      ],
+      "paraphrase": [
+        "From overhead, repeated rows of perennial plants pattern the plots.",
+        "From overhead, rows persist across regularly managed parcels.",
+        "From overhead, small canopy elements can leave exposed soil between lines."
+      ],
+      "confuser": "annualcrop"
+    },
+    "residential": {
+      "core": "An aerial image of residential area.",
+      "attrs": [
+        "Many small building roofs occur along local streets.",
+        "Gardens and vegetation appear between homes.",
+        "Blocks of dwellings form repeated neighborhood patterns."
+      ],
+      "paraphrase": [
+        "From overhead, many small building roofs occur along local streets.",
+        "From overhead, gardens and vegetation appear between homes.",
+        "From overhead, blocks of dwellings form repeated neighborhood patterns."
+      ],
+      "confuser": "industrial"
+    },
+    "river": {
+      "core": "An aerial image of river.",
+      "attrs": [
+        "An elongated water channel winds across the scene.",
+        "Banks trace both sides of the connected waterway.",
+        "Narrow and wide reaches can occur along the same channel."
+      ],
+      "paraphrase": [
+        "From overhead, an elongated water channel winds across the scene.",
+        "From overhead, banks trace both sides of the connected waterway.",
+        "From overhead, narrow and wide reaches can occur along the same channel."
+      ],
+      "confuser": "sealake"
+    },
+    "sealake": {
+      "core": "An aerial image of sea or lake.",
+      "attrs": [
+        "Open water dominates a broad part of the tile.",
+        "Water texture is relatively uniform at scene scale.",
+        "A shoreline can separate the broad water body from adjacent land."
+      ],
+      "paraphrase": [
+        "From overhead, open water dominates a broad part of the tile.",
+        "From overhead, water texture is relatively uniform at scene scale.",
+        "From overhead, a shoreline can separate the broad water body from adjacent land."
+      ],
+      "confuser": "river"
+    }
+  }
+}

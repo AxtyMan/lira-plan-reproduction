@@ -1,0 +1,54 @@
+﻿agricultural|agricultural land|cultivated vegetation covers broad tracts|field margins separate neighboring plots|surface color varies between adjacent planted parcels|golfcourse
+agriculture|annual cropland|open cultivated parcels fill the overhead view|crop rows create fine repeated marks|field edges break the land into managed blocks|permanentcrop
+airplane|airplane|wings extend sideways from a narrow fuselage|aircraft can sit on paved aprons or taxiways|tail surfaces are visible at the rear of the aircraft|runway
+airport|airport|long runways connect to thinner taxiways|aircraft parking aprons extend beside built structures|painted markings organize broad paved surfaces|runway
+baseball_diamond|baseball diamond|an infield forms a diamond around four bases|the grassy outfield spreads beyond a curved boundary|dirt paths and foul lines run out from home plate|golf_course
+basketball_court|basketball court|a compact rectangle has marked playing lines|arcs and key areas appear near opposite ends|courts may sit side by side on hard surfaces|tennis_court
+beach|beach|a light sandy strip follows the waterline|wave traces can meet the exposed shore|dry sand and darker wet sand form bands|harbor
+bridge|bridge|a deck crosses water, a valley, or another route|a linear crossing connects separated approach roads|the structure creates a narrow link across a gap|overpass
+buildings|group of buildings|angular roofs mark discrete structures|open gaps divide adjacent roof footprints|access ways and paved yards appear between buildings|denseresidential
+chaparral|chaparral|low shrubs form a mottled cover|patches of bare soil interrupt woody vegetation|scrub canopy looks less continuous than a closed forest|forest
+church|church|a prominent roofed structure anchors the site|a tower or elongated nave can define the footprint|paths and open grounds may surround the main building|palace
+circular_farmland|circular farmland|cultivated plots form large circles|radial arcs contrast with nearby straight field edges|neighboring circles can have different vegetation tones|rectangular_farmland
+cloud|cloud cover|bright irregular masses obscure the ground|diffuse edges separate clouds from clearer patches|shadows can appear below optically thick clouds|sea_ice
+commercial_area|commercial area|large roof footprints cluster along roads|parking bays occupy exposed paved lots|access roads and service areas connect neighboring buildings|industrial_area
+dense_residential|dense residential district|small roofs crowd into closely spaced blocks|narrow roads divide repeated housing units|limited open ground separates adjacent structures|medium_residential
+deserT|desert|broad exposed ground has little vegetation|sand and rock produce variations in pale tones|natural ridges or dunes interrupt otherwise open surfaces|beach
+forest|forest|tree crowns form broad contiguous canopy|shadows add irregular texture between crowns|clearings contrast with nearby dense vegetation|chaparral
+golf_course|golf course|managed turf forms elongated fairway corridors|small sand bunkers punctuate the greens|curving paths connect open grass areas|meadow
+ground_track_field|running track field|annular lanes surround a central playing surface|the track has two straight sides joined by curved ends|lane stripes repeat around the oval|stadium
+harbor|harbor|piers and quays extend along sheltered water|vessels may lie beside engineered waterfront edges|breakwaters and docks organize the basin|beach
+herbaceousvegetation|herbaceous vegetation|low vegetation covers much of the land|open grassy patches lack continuous tree crowns|irregular boundaries may separate vegetation from cultivated areas|pasture
+highway|highway|a broad linear road cuts across the landscape|parallel travel lanes follow a common direction|ramps or narrower roads may connect with the main carriageway|river
+industrial|industrial area|large angular roofs occupy sizable blocks|wide paved yards are found beside buildings|service roads link warehouse-like structures|residential
+industrial_area|industrial area|large angular roofs occupy sizable blocks|wide paved yards are found beside buildings|service roads link warehouse-like structures|commercial_area
+intersection|road intersection|multiple road arms meet at one junction|turn lanes or markings branch around the junction|paved road corridors converge in the same patch|overpass
+island|island|water encloses a distinct landmass|a continuous shoreline separates the land from surrounding water|vegetation or terrain remains visible inside the coastal boundary|lake
+lake|lake|an enclosed water surface has a traceable shoreline|the basin widens into a broad continuous area of water|surrounding land forms an outer rim around the water|river
+meadow|meadow|open vegetation covers a broad grassy area|herbaceous texture is more even than a dense tree canopy|patchy green tones can extend across irregular open land|golf_course
+medium_residential|medium-density residential district|houses form recognizable blocks with visible gaps|yards and local roads separate groups of roofs|houses cover a notable share of the scene without continuous roof cover|dense_residential
+mobile_home_park|mobile home park|narrow rectangular homes repeat in closely spaced rows|small lots line shared access lanes|the units often have comparable length and orientation|dense_residential
+mountain|mountain landscape|prominent ridges and slopes create variable terrain|valleys break up the elevated landforms|slope orientation yields contrasting light and shadow|terrace
+overpass|road overpass|one traffic route crosses another at a different level|ramps can form curving connectors around the crossing|distinct shadows or deck edges mark the upper crossing|intersection
+palace|palace complex|large buildings can surround formal courts|symmetrical grounds extend around a central complex|wide paths or planted areas organize the surrounding space|church
+parking_lot|parking lot|cars may appear in repeated rows on hard pavement|narrow spaces are arranged around vehicle aisles|paved bays sit beside access roads or buildings|runway
+pasture|pasture|managed grass covers enclosed tracts|hedges or tracks separate neighboring fields|broad open grass patches have relatively uniform texture|herbaceousvegetation
+permanentcrop|permanent cropland|repeated rows of perennial plants pattern the plots|rows persist across regularly managed parcels|small canopy elements can leave exposed soil between lines|agriculture
+railway|railway|parallel steel track corridors traverse the scene|track beds create narrow continuous strips|branching switches may join adjacent lines|freeway
+railway_station|railway station|several rail tracks run beside platforms|elongated shelters align with the railway|tracks converge near a passenger or service complex|railway
+rectangular_farmland|rectangular farmland|straight field boundaries enclose cultivated rectangles|adjacent parcels form a coarse grid|crop color and texture differ across field blocks|circular_farmland
+residential|residential area|many small building roofs occur along local streets|gardens and vegetation appear between homes|blocks of dwellings form repeated neighborhood patterns|industrial
+river|river|an elongated water channel winds across the scene|banks trace both sides of the connected waterway|narrow and wide reaches can occur along the same channel|lake
+roundabout|road roundabout|a circular traffic lane wraps around an island|several roads enter the circular junction|curved merge lanes organize traffic around the center|intersection
+runway|aircraft runway|an unusually long and straight paved strip fills part of the image|surface markings follow a single landing axis|broad clear ground borders the aircraft movement strip|airplane
+sea_ice|sea ice|irregular bright floes float amid darker seawater|dark leads separate ice patches|angular broken ice edges produce contrasting patterns|cloud
+sealake|sea or lake|open water dominates a broad part of the tile|water texture is relatively uniform at scene scale|a shoreline can separate the broad water body from adjacent land|river
+ship|ship|an elongated vessel contrasts with surrounding water|the hull has a defined outline and tapered ends|a wake or deck structures may distinguish the vessel|harbor
+snowberg|snowberg landscape|bright snow or ice coats elevated rough terrain|sharp shaded relief breaks the bright surfaces|ice and exposed material create high-contrast boundaries|mountain
+sparse_residential|sparse residential district|isolated homes stand among extensive open space|yards and trees create wide gaps between roofs|small access roads connect widely separated buildings|medium_residential
+stadium|stadium|a central playing surface sits inside a large enclosure|stands or seating form elevated edges around the field|access paths and open areas surround the sports structure|ground_track_field
+storage_tank|storage tanks|circular tank roofs form distinct industrial footprints|several round tanks may repeat at regular spacing|service paths or containment areas lie around the tanks|industrial_area
+tennis_court|tennis court|a small rectangular court has a marked central net line|painted baselines and service boxes subdivide the playing area|multiple colorful courts may share adjacent fences|basketball_court
+terrace|terraced land|successive bands follow contours on a slope|small risers separate adjacent stepped surfaces|repeated curved edges mark managed slopes|mountain
+thermal_power_station|thermal power station|large industrial structures connect through service corridors|cooling towers or tall stacks can mark the site|built facilities cluster around broad paved or cleared areas|industrial_area
+wetland|wetland|patchy shallow water intermixes with low vegetation|irregular channels cross saturated land|reed-like cover and pools create a heterogeneous texture|lake

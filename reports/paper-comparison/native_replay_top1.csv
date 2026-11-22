@@ -1,0 +1,3 @@
+﻿source,method,K,seed,correct,query_n,top1_pct,validation_labels
+local author-style replay,timo,4,1,6406,8100,79.08641975308642,5400
+local author-style replay,prolip,4,1,6335,8100,78.20987654320987,0
